@@ -1,0 +1,85 @@
+@keyframes showSlogan {
+    0% {
+        transform: scaleY(0);
+    }
+    80%{
+        transform: scaleY(1.5);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 80%;
+    height: fit-content;
+    border-radius: 100px;
+    
+}
+.slogan h2,.slogan p{
+    backdrop-filter: blur(2px);
+}
+.slogan *{
+    margin: 20px 10px;
+}
+.slogan h2{
+     text-transform: capitalize;
+     word-spacing: 1rem;
+     font-family:sans-serif;
+     font-size: 3rem;
+     animation: showSlogan 0.3s linear forwards;
+}
+@keyframes showSlogan {
+    0% {
+        transform: scaleY(0);
+    }
+    80%{
+        transform: scaleY(1.5);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+.slogan  p{
+     font-size: 1.1rem;
+     font-weight: bold;
+     text-align: center;
+}
+.slogan a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    padding: 20px 10px;
+    background-color: black;
+    border-radius: 100px;
+    animation: calButton ease-in-out 1s 1 forwards 0.3s;
+}
+@keyframes calButton {
+    0%{
+        transform: translateZ(0);
+    }
+    25%{
+        transform: translateZ(2px) scaleX(1.05);
+    }
+    45%{
+        transform: rotate(3deg);
+    }
+    55%{
+        transform: rotate(-3deg);
+    }
+    75%{
+        transform: translateZ(-2px) scaleX(1.05);
+    }
+    100%{
+        transform: translateZ(0);
+        color: white;
+        background-color: rgb(65, 152, 218);
+    }
+}

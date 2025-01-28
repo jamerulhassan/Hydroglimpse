@@ -1,0 +1,44 @@
+main a{
+    position: fixed;
+    font-size: 2rem;
+    color: white;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    top: 80px;
+    left: 0;
+    margin-left: 20px;
+}
+.fAQOfWf{
+    display: block;
+    width: 70%;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding-top: 77px;
+    margin-top: -77px;
+    margin-bottom: 85px;
+    background: url('../imagefolder/fAQBgImd.png') no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    color: rgb(10, 10, 10);
+}
+.fAQOfWf ul li {
+    list-style-type: none;
+}
+.fAQOfWf h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+.fAQOfWf ul li{
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.fAQOfWf ul li ul{
+    padding-right: 30px;
+}
+.fAQOfWf ul li h5{
+    font-size: 1.2rem;
+}

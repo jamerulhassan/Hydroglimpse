@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    background-color: #131b2f;
+    color: black;
+}
+body{
+    padding-top:77px ;
+    font-family: cursive;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+
+}
+main a{
+    position: fixed;
+    font-size: 2rem;
+    color: white;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    top: 80px;
+    left: 0;
+    margin-left: 20px;
+}
+/*******WHAT IS WATER FOOTPRINT CONTENT*****/
+.waterFootprint{
+    display: block;
+    width: 70%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 50px;
+    background: url('../imagefolder/wfPage1stImg') no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    padding-top: 77px;
+    margin-top: -77px;
+    margin-bottom: 85px;
+}
+
+.insideThewaterFootprint{
+    margin-top:50px;
+}
+.waterFootprint *{
+    padding-left: 10px;
+}
+.waterFootprint h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.waterFootprint p{
+    padding-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+/**********TYPES OF WATER FOOTPRINT***********/
+.typesOfWf{
+    display: block;
+    width: 70%;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding-top: 77px;
+    margin-top: -77px;
+    margin-bottom: 85px;
+    background: url('../imagefolder/wf2bdImd.png') no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.typesOfWf h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.typesOfWf ul{
+    padding-left: 30px;
+}
+.typesOfWf ul li{
+      margin-bottom: 10px;
+      list-style-type:none;
+}
+/**********IMPORTANCE OF WATER FOOTPRINT***********/
+.imptOfWf{
+    display: block;
+    width: 70%;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding-top: 77px;
+    margin-top: -77px;
+    margin-bottom: 85px;
+    background: url('../imagefolder/wf3bgImg.png') no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    color: white;
+}
+.imptOfWf h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.imptOfWf ul{
+    padding-left: 30px;
+}
+.imptOfWf ul li{
+      margin-bottom: 10px;
+      list-style-type:none;
+}

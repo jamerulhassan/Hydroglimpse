@@ -1,0 +1,77 @@
+@media all and (max-width:420px){
+    .homeSection1{
+        min-height: 100vh;
+    }
+    .sectionNavigation{
+        top: 200px;
+    }
+    .text1{
+        top: 600px;
+        color:#493364;
+        font-family: cursive;
+        text-align: center;
+    }
+    /*********MAIN************/
+    .nextPointer a{
+        top: 89px;
+    }
+    /******CALCULATION SECTION*******/
+    .itemsInClaculateSection{
+        width: 95%;
+        height: 35%;
+    }
+    /********AIM AND MOTO SECTION***********/
+    .itemsInaimAndMottoSection{
+        width: 95%;
+    }
+    .itemsInaimAndMottoSection h3,.itemsInaimAndMottoSection p{
+        padding: 10px 0px ;
+    }
+    /************OUR THEME***********/
+    .itemsInourThemeSection{
+        width: 95%;
+    }
+    .itemsInourThemeSection h3,.itemsInourThemeSection p{
+        padding: 5px 0px ;
+    }
+    /******OUR CREW SECTION*******/
+    .itemsInourcrewSection{
+        width: 95%;
+    }
+    .itemsInourcrewSection h3{
+        left: 27%;
+    }
+    .img{
+        flex-basis: 30%;
+        margin-bottom: 50px;
+    }
+    .img h5{
+        bottom:-55px;
+        text-align: center;
+    }
+    /**********************************/
+    /**********************************/
+    /**********************************/
+    /*********FOOTER STYLINGS**********/
+    .footerForNavigation{
+        margin-top:30px;
+        flex-direction: column;
+    }
+    .footerForNavigation li{
+        align-self: center;
+    }
+    .footerForNavigation li h3{
+        text-align: center;
+    }
+    .WebsiteDescription{
+        order: 0;
+        align-self: flex-start;
+    }
+    .footerFaQ{
+        min-height: 35px;
+    }
+    .footerFaQ a{
+        margin-top: 5px;
+        
+    }
+}
