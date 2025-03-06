@@ -39,7 +39,7 @@ main a{
     height: 50vh;
     background-color: white;
     border-radius: 50px;
-    background: url('../imagefolder/wfPage1stImg') no-repeat;
+    background: url('./wfPage1stImg') no-repeat;
     background-position: bottom center;
     background-size: cover;
     padding-top: 77px;
@@ -73,7 +73,7 @@ main a{
     padding-top: 77px;
     margin-top: -77px;
     margin-bottom: 85px;
-    background: url('../imagefolder/wf2bdImd.png') no-repeat;
+    background: url('./wf2bdImd.png') no-repeat;
     background-position: bottom center;
     background-size: cover;
 }
@@ -98,7 +98,7 @@ main a{
     padding-top: 77px;
     margin-top: -77px;
     margin-bottom: 85px;
-    background: url('../imagefolder/wf3bgImg.png') no-repeat;
+    background: url('./wf3bgImg.png') no-repeat;
     background-position: bottom center;
     background-size: cover;
     color: white;

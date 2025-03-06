@@ -273,7 +273,7 @@ main{
     overflow-x: hidden;
     min-height: 84vh;
     position: relative;
-    background-image: url('../imagefolder/backgroundSky.png');
+    background-image: url('./backgroundSky.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,7 +286,7 @@ main{
     overflow-x: hidden;
     min-height: 84vh;
     position: relative;
-    background-image: url('../imagefolder/sky-One.png');
+    background-image: url('./sky-One.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,7 +350,7 @@ main{
    border:1px solid #2e6aa4;
    justify-content: center;
    align-items:center;
-   background-image: url('../imagefolder/definitionImg');
+   background-image: url('./definitionImg');
    
 }
 .itemsInDefinitionSection h2,.itemsInDefinitionSection p{
@@ -381,7 +381,7 @@ main{
     position: relative;
     justify-content: flex-start;
     margin-top: 20px;
-    background: url('../imagefolder/claculatebgImg.png') no-repeat;
+    background: url('./claculatebgImg.png') no-repeat;
     background-position: bottom center;
     background-size: cover;
 }
@@ -531,7 +531,7 @@ main{
    justify-content: center;
    align-items:center;
    overflow: hidden;
-   background-image: url('../imagefolder/aim&mottoBgImg.jpg');
+   background-image: url('./aim&mottoBgImg.jpg');
 }
 .itemsInaimAndMottoSection h3,.itemsInaimAndMottoSection p{
     padding: 20px 30px;
@@ -568,7 +568,7 @@ main{
    justify-content: center;
    align-items:center;
    overflow: hidden;
-   background-image: url('../imagefolder/themeBgImg.jpg');
+   background-image: url('./themeBgImg.jpg');
 }
 .itemsInourThemeSection h3,.itemsInourThemeSection p{
     padding: 20px 30px;
