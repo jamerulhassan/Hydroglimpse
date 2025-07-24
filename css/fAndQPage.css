@@ -19,7 +19,7 @@ main a{
     padding-top: 77px;
     margin-top: -77px;
     margin-bottom: 85px;
-    background: url('./fAQBgImd.png') no-repeat;
+    background: url('../images/fAQBgImd.png') no-repeat;
     background-position: bottom center;
     background-size: cover;
     color: rgb(10, 10, 10);
